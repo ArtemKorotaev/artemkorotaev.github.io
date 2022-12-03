@@ -11,9 +11,33 @@ Pushwoosh.push(['init', {
     applicationCode: 'DA9D7-40B43', // you application code from Pushwoosh Control Panel
     defaultNotificationTitle: 'Pushwoosh', // sets a default title for push notifications
     autoSubscribe: false, // or true. If true, prompts a user to subscribe for pushes upon SDK initialization
-    subscribeWidget: {
-      enable: true
-    },
+    subscribeWidget: subscribeWidget: {
+    enable: true,
+    position: 'bottomRight',
+    bgColor: '#12AE7E',
+    bellColor: 'green',
+    bellStrokeColor: '#08754f',
+    bellButtonBorder: '1px solid #379676',
+    shadow: '0px 0px 6px rgba(0, 0, 0, 0.75)',
+    size: '88px',
+    indent: '20px',
+    zIndex: '999999',
+    tooltipText: {
+      successSubscribe: 'You are successfully subscribed!',
+      needSubscribe: 'Get notifications about important news!',
+      blockSubscribe: 'Click to see how to get notifications',
+      alreadySubscribed: 'You are already subscribed'
+    }
+    buttonImage: 'https://url-image.jpg',
+    contentImages: {
+      chrome: 'https://url-image.jpg',
+      mobileChrome: 'https://url-image.jpg',
+      firefox: 'https://url-image.jpg',
+      opera: 'https://url-image.jpg',
+      safari: 'https://url-image.jpg',
+      edge: 'https://url-image.jpg',
+    }
+  },
     userId: '666', // optional, set custom user ID
     tags: {
         'Name': 'John Smith'   	// optional, set custom Tags
