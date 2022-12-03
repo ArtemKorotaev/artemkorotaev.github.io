@@ -3,5 +3,5 @@
   "short_name": "artemkorotaev.github.io",
   "gcm_sender_id": "849268677024",
   "display": "standalone",
-  "gcm_user_visible_only": true
+  "userVisibleOnly": true
 }
