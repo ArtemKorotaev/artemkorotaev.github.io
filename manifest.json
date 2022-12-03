@@ -1,7 +1,7 @@
 {
   "name": "artemkorotaev.github.io",
   "short_name": "artemkorotaev.github.io",
-  "gcm_sender_id": "849268677024",
+  "fcm_sender_id": "849268677024",
   "display": "standalone",
   "userVisibleOnly": true
 }
